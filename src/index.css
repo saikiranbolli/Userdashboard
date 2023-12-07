@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@media (min-width: 320px) and (max-width: 360px){
+  .reponsive_table{
+    max-width: 320px;
+    overflow: scroll;
+  }
+}
+@media (min-width: 560px) and (max-width: 991px) {
+  .reponsive_table{
+    max-width: 520px !important;
+    overflow: scroll;
+  }
+}
+/* @media (min-width: 330px) and (max-width: 991px) {
+  .reponsive_table{
+    max-width: 320px;
+    overflow: scroll;
+  }
+} */
